@@ -10,6 +10,9 @@ body{
 h1{
     font-size: 40px;
 }
+#images{
+    width: 80%;
+}
 .wight-haft{
         width: 40%;
         margin-left: 5%;
@@ -17,14 +20,73 @@ h1{
         float: left;
 }
 .wight-haft img{
-    width: 100%;
+    width: 90%;
 }
 section{
     height: 500px;
-    padding-bottom: 400px;
+    padding-bottom: 500px;
 }
 .header-bg{
     background-image: url(/images/header-bg.png);
     background-repeat: no-repeat;
+}
+.link-button{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(221, 101, 211), rgb(207, 76, 196));
+    font-weight: 200;
+}
+.Biography-bg-images{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.Letest-work{
+    float: left;
+    width: 25%;
+    padding: 2%;
+    margin: 2%;
 
+
+}
+.Letest-work img{
+    width: 100%;
+}
+.foooter-bg-image h1{
+    text-align: center;
+}
+.foooter-bg-image{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.email-section h1{
+    padding-top: 400px;
+}
+.founder{
+    text-align: center;
+    padding-top: 100px;
+}
+.founder p{
+    color: gray;
+
+
+}
+#master{
+    padding: 30px 30%;
+    margin-bottom: 20px;
+}
+.button{
+    border-color:white;
+    text-decoration: none;
+    color: white;
+    background-color: #d439d4;
+   
+    padding: 40px 30px;
+   margin-left: 45%;
+   border-radius: 10px;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    
 }
